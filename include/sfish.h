@@ -17,7 +17,6 @@
 
 /** ------- My stuff  -------- **/
 
-//#define HELP_MENU "National Suicide Prevention Lifeline : 1-800-273-8255\n"
 #define PROMPT "\x1b[1;34m %s : hhyao >>\x1b[0m"
 
 #define CWD_BUF 256         // for storing the cwd
@@ -53,7 +52,8 @@ int ec_pipe( char* in_arr[] );
             "(_ |_||_ |  |     |_  | (_ |_|\n"                              \
             "__)| ||__|__|__   |  _|___)| |  °º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,¤º°¤,¸ \n" \
             "\n"                                                               \
-            "CSE 320 Fall 2017: sfish - a C Shell\n"                                \
+            "Fall 2017: sfish - a C Shell\n"                                \
+            "- Hannah Yao \n"                                \
             "\n"                                                        \
             "Type 'help' to display help menu.\n"                       \
             "Type 'exit' to exit sfish.\n"                              \
